@@ -1,0 +1,26 @@
+services:
+  app:
+    image: ${APP_IMAGE:?Set APP_IMAGE to an immutable GHCR image tag}
+    restart: unless-stopped
+    env_file:
+      - ${TTT_RUNTIME_ENV_FILE:?Set TTT_RUNTIME_ENV_FILE to the server-only environment file}
+    environment:
+      NODE_ENV: production
+      HOSTNAME: 0.0.0.0
+      PORT: 3000
+    user: "33:33"
+    ports:
+      - "127.0.0.1:${APP_HOST_PORT:?Set APP_HOST_PORT to the inactive blue-green slot}:3000"
+    volumes:
+      - ${APP_DATA_ROOT:?Set APP_DATA_ROOT to /opt/tinhtinhtingting/shared}/uploads:/app/uploads
+      - ${APP_DATA_ROOT:?Set APP_DATA_ROOT to /opt/tinhtinhtingting/shared}/media:/app/public/media
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s

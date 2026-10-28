@@ -1,0 +1,1910 @@
+{
+  "schemaVersion": 2,
+  "fileKey": "Gmzxui5petX6JblbBjAaYP",
+  "sectionNodeId": "563:784",
+  "sectionName": "Done",
+  "approval": "User explicitly confirmed Done desktop 1280px and mobile 393px",
+  "evidenceDate": "2026-10-17",
+  "metadataSnapshot": ".scratch/figma-ui-audit/figma/page-metadata.xml",
+  "auditReport": "docs/research/2026-10-17-figma-ui-audit.md",
+  "scope": "Planning reference; no UI implementation or visual approval implied",
+  "screens": [
+    {
+      "name": "home-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "304:532",
+      "route": "/",
+      "state": "settled",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 3798,
+      "osInsetTop": 0,
+      "normalizedHeight": 3798,
+      "referencePath": "docs/design/figma-reference/home-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/home-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 3798,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "304:533",
+          "name": "Frame 2147203630",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": {
+          "id": "304:550",
+          "name": "home title text",
+          "x": 347,
+          "y": 665,
+          "width": 585,
+          "height": 68
+        },
+        "cta": {
+          "id": "304:551",
+          "name": "home down arrow",
+          "x": 622.529,
+          "y": 773,
+          "width": 33.94,
+          "height": 16.97
+        },
+        "art": {
+          "id": "304:544",
+          "name": "image 1",
+          "x": -142,
+          "y": 56,
+          "width": 1564,
+          "height": 595
+        },
+        "section": null,
+        "footer": {
+          "id": "546:1150",
+          "name": "Frame 2147203756",
+          "x": 0,
+          "y": 3454,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:SemiBold",
+          "CDA_Independence_Deck:Italic",
+          "CDA_Independence_Deck:Medium"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\home-desktop.txt"
+      },
+      "assetFilenames": [
+        "dca23.png",
+        "94eaa.png",
+        "993c9.png",
+        "9552a.png",
+        "d7ef8.png",
+        "490b5.png",
+        "a637a.png",
+        "812c1.png",
+        "1b8b1.png",
+        "e0c22.png",
+        "3b5a8.png",
+        "5f9b6.svg",
+        "feb0e.svg",
+        "b1b5f.svg",
+        "4d000.svg",
+        "f49f0.svg",
+        "1ed75.svg",
+        "deb76.svg",
+        "9986b.svg",
+        "06094.svg",
+        "08c45.svg",
+        "e327f.svg",
+        "ea2c5.svg",
+        "0b41f.svg",
+        "d388a.svg",
+        "8976e.svg",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\home-desktop.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "home-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "141:420",
+      "route": "/",
+      "state": "settled",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 3408,
+      "osInsetTop": 44,
+      "normalizedHeight": 3364,
+      "referencePath": "docs/design/figma-reference/home-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/home-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 3408,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "141:422",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": {
+          "id": "141:482",
+          "name": "image 2",
+          "x": -224,
+          "y": 84,
+          "width": 1334,
+          "height": 507
+        },
+        "section": null,
+        "footer": {
+          "id": "141:427",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 3227,
+          "width": 393,
+          "height": 181
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:SemiBold",
+          "CDA_Independence_Deck:Bold_Italic",
+          "CDA_Independence_Deck:Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\home-mobile.txt"
+      },
+      "assetFilenames": [
+        "3b5a8.png",
+        "dca23.png",
+        "94eaa.png",
+        "993c9.png",
+        "9552a.png",
+        "d7ef8.png",
+        "490b5.png",
+        "a637a.png",
+        "812c1.png",
+        "1b8b1.png",
+        "e0c22.png",
+        "98bef.svg",
+        "502ee.svg",
+        "23758.svg",
+        "8a5f6.svg",
+        "30f7b.svg",
+        "cfef0.svg",
+        "dfc7b.svg",
+        "b95b0.svg",
+        "cbb8b.svg",
+        "5b57e.svg",
+        "d3d68.svg",
+        "c8203.svg",
+        "d336b.svg",
+        "2866b.svg",
+        "efadc.svg",
+        "cb6df.svg",
+        "493c1.svg",
+        "49700.svg",
+        "676b0.svg",
+        "25676.svg",
+        "d21b5.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\home-mobile.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "about-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "403:386",
+      "route": "/ve-du-an",
+      "state": "settled",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 4262,
+      "osInsetTop": 0,
+      "normalizedHeight": 4262,
+      "referencePath": "docs/design/figma-reference/about-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/about-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 4262,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "403:500",
+          "name": "Frame 2147203630",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": {
+          "id": "403:553",
+          "name": "Frame 2147203663",
+          "x": -143,
+          "y": 56,
+          "width": 1566,
+          "height": 595
+        },
+        "section": null,
+        "footer": {
+          "id": "546:1118",
+          "name": "Frame 2147203744",
+          "x": 0,
+          "y": 3918,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium",
+          "Anaktoria:Regular",
+          "CDA_Independence_Deck:Italic",
+          "CDA_Independence_Deck:Bold_Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\about-desktop.txt"
+      },
+      "assetFilenames": [
+        "1b8b1.png",
+        "993c9.png",
+        "3b5a8.png",
+        "94eaa.png",
+        "812c1.png",
+        "9552a.png",
+        "614f5.png",
+        "a637a.png",
+        "4c59c.png",
+        "175be.svg",
+        "5f9b6.svg",
+        "da396.svg",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "4d736.svg",
+        "5be67.svg",
+        "47334.svg",
+        "43eba.svg",
+        "53ec0.svg",
+        "9c805.svg",
+        "6b0fc.svg",
+        "f4b5d.svg",
+        "f6949.svg",
+        "1f182.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\about-desktop.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "about-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "141:330",
+      "route": "/ve-du-an",
+      "state": "settled",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 4473,
+      "osInsetTop": 44,
+      "normalizedHeight": 4429,
+      "referencePath": "docs/design/figma-reference/about-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/about-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 4473,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "141:332",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": {
+          "id": "151:718",
+          "name": "nền 4",
+          "x": -152,
+          "y": 150,
+          "width": 699,
+          "height": 349
+        },
+        "section": null,
+        "footer": {
+          "id": "141:337",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 4236,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    },
+    {
+      "name": "pairing-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:682",
+      "route": "/tuong-thich-doi",
+      "state": "coming-soon",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 1176,
+      "osInsetTop": 0,
+      "normalizedHeight": 1176,
+      "referencePath": "docs/design/figma-reference/pairing-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/pairing-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1280,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "414:719",
+          "name": "Frame 2147203630",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "546:862",
+          "name": "Frame 2147203744",
+          "x": 0,
+          "y": 832,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:Bold_Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\pairing.txt"
+      },
+      "assetFilenames": [
+        "3b5a8.png",
+        "a637a.png",
+        "e0c22.png",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "abe0b.svg",
+        "14eec.svg",
+        "e7234.svg",
+        "ef05e.svg",
+        "3b0f5.svg",
+        "f1970.svg",
+        "b711c.svg",
+        "2a6c8.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\pairing.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "pairing-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "141:170",
+      "route": "/tuong-thich-doi",
+      "state": "coming-soon",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 1094,
+      "osInsetTop": 44,
+      "normalizedHeight": 1050,
+      "referencePath": "docs/design/figma-reference/pairing-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/pairing-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1094,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "141:172",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "141:219",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 857,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:Bold_Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\pairing.txt"
+      },
+      "assetFilenames": [
+        "3b5a8.png",
+        "a637a.png",
+        "e0c22.png",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "abe0b.svg",
+        "14eec.svg",
+        "e7234.svg",
+        "ef05e.svg",
+        "3b0f5.svg",
+        "f1970.svg",
+        "b711c.svg",
+        "2a6c8.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\pairing.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "card-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "546:1200",
+      "route": "/card",
+      "state": "coming-soon",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 1176,
+      "osInsetTop": 0,
+      "normalizedHeight": 1176,
+      "referencePath": "docs/design/figma-reference/card-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/card-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1280,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "546:1228",
+          "name": "Frame 2147203630",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": {
+          "id": "546:1198",
+          "name": "nền chờ tí web 1",
+          "x": -24,
+          "y": 56,
+          "width": 1326,
+          "height": 776
+        },
+        "section": null,
+        "footer": {
+          "id": "546:1201",
+          "name": "Frame 2147203744",
+          "x": 0,
+          "y": 832,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:Bold_Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\card.txt"
+      },
+      "assetFilenames": [
+        "bf639.png",
+        "3b5a8.png",
+        "8abcb.png",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "26aca.svg",
+        "b7d8c.svg",
+        "ed961.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\card.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "card-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "546:1268",
+      "route": "/card",
+      "state": "coming-soon",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 1094,
+      "osInsetTop": 44,
+      "normalizedHeight": 1050,
+      "referencePath": "docs/design/figma-reference/card-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/card-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1094,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "546:1270",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": {
+          "id": "560:780",
+          "name": "nền chờ tí web 2",
+          "x": -122,
+          "y": 84,
+          "width": 638,
+          "height": 773
+        },
+        "section": null,
+        "footer": {
+          "id": "546:1275",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 857,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:Bold_Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\card.txt"
+      },
+      "assetFilenames": [
+        "bf639.png",
+        "3b5a8.png",
+        "8abcb.png",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "26aca.svg",
+        "b7d8c.svg",
+        "ed961.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\card.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "test-entry-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1052",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "before-start",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 1176,
+      "osInsetTop": 0,
+      "normalizedHeight": 1176,
+      "referencePath": "docs/design/figma-reference/test-entry-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/test-entry-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1280,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "414:1080",
+          "name": "Frame 2147203630",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "546:894",
+          "name": "Frame 2147203760",
+          "x": 0,
+          "y": 832,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:SemiBold"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\test-entry.txt"
+      },
+      "assetFilenames": [
+        "3b5a8.png",
+        "05e32.png",
+        "c6be4.png",
+        "9b284.png",
+        "e5666.png",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "499f7.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\test-entry.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "test-entry-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1261",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "before-start",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 1089,
+      "osInsetTop": 44,
+      "normalizedHeight": 1045,
+      "referencePath": "docs/design/figma-reference/test-entry-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/test-entry-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1089,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "414:1263",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "414:1268",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 852,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:SemiBold"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\test-entry.txt"
+      },
+      "assetFilenames": [
+        "3b5a8.png",
+        "05e32.png",
+        "c6be4.png",
+        "9b284.png",
+        "e5666.png",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "499f7.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\test-entry.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "question-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1155",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "question-1-answer-A-selected",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 1176,
+      "osInsetTop": 0,
+      "normalizedHeight": 1176,
+      "referencePath": "docs/design/figma-reference/question-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/question-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1280,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "424:3187",
+          "name": "Frame 2147203630",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "546:926",
+          "name": "Frame 2147203744",
+          "x": 0,
+          "y": 832,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\question.txt"
+      },
+      "assetFilenames": [
+        "3b5a8.png",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "051df.svg",
+        "e7ae6.svg",
+        "ba22f.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\question.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "question-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1342",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "question-1-answer-A-selected",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 1094,
+      "osInsetTop": 44,
+      "normalizedHeight": 1050,
+      "referencePath": "docs/design/figma-reference/question-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/question-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1094,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "414:1344",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "414:1349",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 857,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\question.txt"
+      },
+      "assetFilenames": [
+        "3b5a8.png",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "051df.svg",
+        "e7ae6.svg",
+        "ba22f.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\question.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "library-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "439:693",
+      "route": "/kho-tang-tinh-cach",
+      "state": "kind-all-q-empty",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 2497,
+      "osInsetTop": 0,
+      "normalizedHeight": 2497,
+      "referencePath": "docs/design/figma-reference/library-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/library-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 2497,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "439:734",
+          "name": "Frame 2147203630",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": {
+          "id": "439:694",
+          "name": "Frame 2147203676",
+          "x": -143,
+          "y": 56,
+          "width": 1566.3619384765625,
+          "height": 595
+        },
+        "section": null,
+        "footer": {
+          "id": "546:766",
+          "name": "Frame 2147203777",
+          "x": 0,
+          "y": 2153,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:Bold_Italic",
+          "CDA_Independence_Deck:Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\library.txt"
+      },
+      "assetFilenames": [
+        "abf45.png",
+        "e8838.png",
+        "993c9.png",
+        "3b5a8.png",
+        "c6be4.png",
+        "e5666.png",
+        "b17d3.png",
+        "9b284.png",
+        "05e32.png",
+        "bbc4b.svg",
+        "711a3.svg",
+        "de64b.svg",
+        "d5731.svg",
+        "5f9b6.svg",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "f7ec0.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\library.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "library-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "424:2314",
+      "route": "/kho-tang-tinh-cach",
+      "state": "kind-all-q-empty",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 3329,
+      "osInsetTop": 44,
+      "normalizedHeight": 3285,
+      "referencePath": "docs/design/figma-reference/library-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/library-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 3329,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "424:2316",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": {
+          "id": "424:2343",
+          "name": "Frame 2147203682",
+          "x": -262,
+          "y": 84,
+          "width": 917,
+          "height": 348.3326416015625
+        },
+        "section": null,
+        "footer": {
+          "id": "424:2321",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 3092,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:Bold_Italic",
+          "CDA_Independence_Deck:Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\library.txt"
+      },
+      "assetFilenames": [
+        "abf45.png",
+        "e8838.png",
+        "993c9.png",
+        "3b5a8.png",
+        "c6be4.png",
+        "e5666.png",
+        "b17d3.png",
+        "9b284.png",
+        "05e32.png",
+        "bbc4b.svg",
+        "711a3.svg",
+        "de64b.svg",
+        "d5731.svg",
+        "5f9b6.svg",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "f7ec0.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\library.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "library-detail-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "483:1020",
+      "route": "/kho-tang-tinh-cach/nguoi-xay-nen",
+      "state": "saver-detail",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 2497,
+      "osInsetTop": 0,
+      "normalizedHeight": 2497,
+      "referencePath": "docs/design/figma-reference/library-detail-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/library-detail-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 2497,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "483:1061",
+          "name": "Frame 2147203630",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "546:830",
+          "name": "Frame 2147203777",
+          "x": 0,
+          "y": 2153,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:Bold_Italic",
+          "CDA_Independence_Deck:Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\library-detail.txt"
+      },
+      "assetFilenames": [
+        "abf45.png",
+        "e8838.png",
+        "993c9.png",
+        "3b5a8.png",
+        "c6be4.png",
+        "e5666.png",
+        "b17d3.png",
+        "9b284.png",
+        "05e32.png",
+        "bbc4b.svg",
+        "711a3.svg",
+        "de64b.svg",
+        "d5731.svg",
+        "5f9b6.svg",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "67dc1.svg",
+        "9200c.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\library-detail.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "library-detail-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "424:3432",
+      "route": "/kho-tang-tinh-cach/nguoi-xay-nen",
+      "state": "saver-detail",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 2362,
+      "osInsetTop": 44,
+      "normalizedHeight": 2318,
+      "referencePath": "docs/design/figma-reference/library-detail-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/library-detail-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 2362,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "424:3434",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "424:3439",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 2125,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Bold_Italic",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\library-detail-mobile.txt"
+      },
+      "assetFilenames": [
+        "3b5a8.png",
+        "abf45.png",
+        "e8838.png",
+        "993c9.png",
+        "c6be4.png",
+        "e5666.png",
+        "7cfb9.png",
+        "98bef.svg",
+        "db278.svg",
+        "23758.svg",
+        "8a5f6.svg",
+        "7f1dc.svg",
+        "cbb8b.svg",
+        "5b57e.svg",
+        "c1467.svg",
+        "0f00b.svg",
+        "b95b0.svg",
+        "fd6fb.svg",
+        "e3a97.svg",
+        "b682b.svg",
+        "091db.svg",
+        "120d0.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\library-detail-mobile.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "blog-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "424:2429",
+      "route": "/blog",
+      "state": "reference-content-and-up-coming",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 2124,
+      "osInsetTop": 0,
+      "normalizedHeight": 2124,
+      "referencePath": "docs/design/figma-reference/blog-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/blog-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 2124,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "424:2457",
+          "name": "Frame 2147203630",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "424:2430",
+          "name": "Frame 2147203743",
+          "x": 0,
+          "y": 1780,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    },
+    {
+      "name": "blog-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "424:2594",
+      "route": "/blog",
+      "state": "reference-content-and-up-coming",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 1493,
+      "osInsetTop": 44,
+      "normalizedHeight": 1449,
+      "referencePath": "docs/design/figma-reference/blog-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/blog-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1493,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "424:2596",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "424:2643",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 1256,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    },
+    {
+      "name": "result-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1995",
+      "route": "/ket-qua/[code]",
+      "state": "full-owned-result-reference-data",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 3500,
+      "osInsetTop": 0,
+      "normalizedHeight": 3500,
+      "referencePath": "docs/design/figma-reference/result-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/result-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 3500,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "424:3247",
+          "name": "Frame 2147203744",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": {
+          "id": "463:746",
+          "name": "Rectangle 15",
+          "x": 0,
+          "y": 56,
+          "width": 1280,
+          "height": 776
+        },
+        "section": null,
+        "footer": {
+          "id": "546:1086",
+          "name": "Frame 2147203818",
+          "x": 0,
+          "y": 3156,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:SemiBold",
+          "CDA_Independence_Deck:Italic",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:Bold_Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\result.txt"
+      },
+      "assetFilenames": [
+        "7dcca.png",
+        "3b5a8.png",
+        "c6be4.png",
+        "9a3e0.png",
+        "499f7.svg",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "3b91a.svg",
+        "c5de4.svg",
+        "d7c91.svg",
+        "da20b.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\result.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "result-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "464:1176",
+      "route": "/ket-qua/[code]",
+      "state": "full-owned-result-reference-data",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 3500,
+      "osInsetTop": 44,
+      "normalizedHeight": 3456,
+      "referencePath": "docs/design/figma-reference/result-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/result-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 3500,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "464:1178",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": {
+          "id": "546:765",
+          "name": "Rectangle 18",
+          "x": 0,
+          "y": 84,
+          "width": 393,
+          "height": 507
+        },
+        "section": null,
+        "footer": {
+          "id": "464:1183",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 3263,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [
+          "CDA_Independence_Deck:Bold",
+          "CDA_Independence_Deck:Regular",
+          "CDA_Independence_Deck:SemiBold",
+          "CDA_Independence_Deck:Italic",
+          "CDA_Independence_Deck:Medium",
+          "CDA_Independence_Deck:Bold_Italic"
+        ],
+        "source": ".scratch\\figma-ui-audit\\figma\\result.txt"
+      },
+      "assetFilenames": [
+        "7dcca.png",
+        "3b5a8.png",
+        "c6be4.png",
+        "9a3e0.png",
+        "499f7.svg",
+        "c6822.svg",
+        "82dac.svg",
+        "3d827.svg",
+        "71571.svg",
+        "a704a.svg",
+        "3b91a.svg",
+        "c5de4.svg",
+        "d7c91.svg",
+        "da20b.svg"
+      ],
+      "assetProvenance": ".scratch\\figma-ui-audit\\figma\\result.txt",
+      "contextProvenance": "local audit context"
+    },
+    {
+      "name": "loading-1-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1433",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "loading-stage-0",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 1176,
+      "osInsetTop": 0,
+      "normalizedHeight": 1176,
+      "referencePath": "docs/design/figma-reference/loading-1-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/loading-1-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1280,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "424:3199",
+          "name": "Frame 2147203744",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "546:958",
+          "name": "Frame 2147203745",
+          "x": 0,
+          "y": 832,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    },
+    {
+      "name": "loading-1-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1581",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "loading-stage-0",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 1089,
+      "osInsetTop": 44,
+      "normalizedHeight": 1045,
+      "referencePath": "docs/design/figma-reference/loading-1-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/loading-1-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1089,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "414:1583",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "414:1588",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 852,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    },
+    {
+      "name": "loading-2-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1526",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "loading-stage-1",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 1176,
+      "osInsetTop": 0,
+      "normalizedHeight": 1176,
+      "referencePath": "docs/design/figma-reference/loading-2-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/loading-2-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1280,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "424:3211",
+          "name": "Frame 2147203744",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "546:990",
+          "name": "Frame 2147203745",
+          "x": 0,
+          "y": 832,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    },
+    {
+      "name": "loading-2-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1665",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "loading-stage-1",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 1089,
+      "osInsetTop": 44,
+      "normalizedHeight": 1045,
+      "referencePath": "docs/design/figma-reference/loading-2-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/loading-2-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1089,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "414:1667",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "414:1672",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 852,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    },
+    {
+      "name": "loading-3-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1739",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "loading-stage-2",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 1176,
+      "osInsetTop": 0,
+      "normalizedHeight": 1176,
+      "referencePath": "docs/design/figma-reference/loading-3-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/loading-3-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1280,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "424:3223",
+          "name": "Frame 2147203744",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "546:1022",
+          "name": "Frame 2147203745",
+          "x": 0,
+          "y": 832,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    },
+    {
+      "name": "loading-3-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1789",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "loading-stage-2",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 1089,
+      "osInsetTop": 44,
+      "normalizedHeight": 1045,
+      "referencePath": "docs/design/figma-reference/loading-3-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/loading-3-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1089,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "414:1791",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "414:1796",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 852,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    },
+    {
+      "name": "loading-4-desktop",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1867",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "loading-stage-3",
+      "device": "desktop",
+      "width": 1280,
+      "figmaHeight": 1176,
+      "osInsetTop": 0,
+      "normalizedHeight": 1176,
+      "referencePath": "docs/design/figma-reference/loading-4-desktop.png",
+      "normalizedReferencePath": "docs/design/figma-reference/loading-4-desktop.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1280,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "424:3235",
+          "name": "Frame 2147203744",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 56
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "546:1054",
+          "name": "Frame 2147203745",
+          "x": 0,
+          "y": 832,
+          "width": 1280,
+          "height": 344
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    },
+    {
+      "name": "loading-4-mobile",
+      "fileKey": "Gmzxui5petX6JblbBjAaYP",
+      "nodeId": "414:1917",
+      "route": "/test-xu-huong-tai-chinh",
+      "state": "loading-stage-3",
+      "device": "mobile",
+      "width": 393,
+      "figmaHeight": 1089,
+      "osInsetTop": 44,
+      "normalizedHeight": 1045,
+      "referencePath": "docs/design/figma-reference/loading-4-mobile.png",
+      "normalizedReferencePath": "docs/design/figma-reference/loading-4-mobile.normalized.png",
+      "export": {
+        "format": "png",
+        "scale": 1,
+        "longEdge": 1089,
+        "verifiedBy": "sharp"
+      },
+      "anchors": {
+        "header": {
+          "id": "414:1919",
+          "name": "Frame 2147203701",
+          "x": 0,
+          "y": 44,
+          "width": 393,
+          "height": 40
+        },
+        "title": null,
+        "cta": null,
+        "art": null,
+        "section": null,
+        "footer": {
+          "id": "414:1924",
+          "name": "Frame 2147203699",
+          "x": 0,
+          "y": 852,
+          "width": 393,
+          "height": 237
+        },
+        "note": "Only header/footer and explicitly audited Home title/CTA/art IDs are asserted; other anchors await frame-specific XML child audits."
+      },
+      "fonts": {
+        "names": [],
+        "source": "Figma context did not expose font metadata in local audit response"
+      },
+      "assetFilenames": [],
+      "assetProvenance": "not-captured-in-local-audit",
+      "contextProvenance": "mcp-context-retry-limited; geometry from local metadata"
+    }
+  ],
+  "referenceDirectory": "docs/design/figma-reference",
+  "referencePolicy": {
+    "nativeExport": "Figma PNG at maxDimension equal to the frame long edge; no scaled previews",
+    "normalizedOrigin": "Mobile exports crop the 44px iOS inset for browser-origin comparisons; native PNG remains available",
+    "contextSkill": "resource:figma-design-to-code"
+  }
+}

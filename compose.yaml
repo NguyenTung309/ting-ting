@@ -1,0 +1,20 @@
+services:
+  app-db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: tingting_app
+      POSTGRES_USER: tingting_app
+      POSTGRES_PASSWORD: ${APP_POSTGRES_PASSWORD:-local-app-db-password}
+    ports:
+      - "5434:5432"
+    volumes:
+      - tingting-app-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  tingting-app-postgres:

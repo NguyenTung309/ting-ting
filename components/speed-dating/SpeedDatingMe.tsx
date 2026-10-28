@@ -1,0 +1,15 @@
+"use client";
+
+import Link from "next/link";
+import { useEffect, useState } from "react";
+
+type Profile = { publicId: string; dateOfBirth: string; alias: string; ageBand: string | null; region: string | null; enabled: boolean; status: string; characterId: string | null; personalityCode: string | null };
+
+export function SpeedDatingMe() {
+  const [profile, setProfile] = useState<Profile | null>(null); const [loading, setLoading] = useState(true); const [error, setError] = useState("");
+  useEffect(() => { void fetch("/api/speed-dating/profile").then(async (response) => { const data = await response.json(); if (!response.ok) throw new Error(data.error || "Không thể tải hồ sơ."); setProfile(data.profile); }).catch((reason) => setError(reason instanceof Error ? reason.message : "Không thể tải hồ sơ.")).finally(() => setLoading(false)); }, []);
+  if (loading) return <div className="h-72 animate-pulse rounded-[2rem] bg-[#f0e3d5]" />;
+  if (error) return <div className="rounded-[2rem] bg-[#fff0ea] p-7 text-[#a33d36]">{error}</div>;
+  if (!profile) return <div className="rounded-[2rem] border border-dashed border-[#d6c2b1] bg-white p-8"><p className="text-2xl font-black text-[#49352e]">Bạn chưa có hồ sơ</p><p className="mt-3 leading-7 text-[#806e62]">Tạo hồ sơ để bắt đầu khám phá những người cùng tần số.</p><Link href="/speed-dating/start" className="mt-6 inline-block rounded-full bg-[#49352e] px-5 py-3 text-sm font-black text-white">Tạo hồ sơ</Link></div>;
+  return <div><p className="eyebrow-mark text-xs font-black uppercase tracking-[0.2em] text-[#c85a50]">Hồ sơ của tôi</p><h1 className="mt-4 text-5xl font-black tracking-[-0.08em] text-[#49352e]">{profile.alias}</h1><p className="mt-4 text-lg leading-8 text-[#806e62]">{profile.enabled ? "Hồ sơ đang xuất hiện trong Discovery." : "Hồ sơ đang tắt và chưa xuất hiện trong Discovery."}</p><div className="mt-8 grid gap-4 sm:grid-cols-3"><div className="rounded-[1.5rem] bg-[#f2f6e8] p-5"><p className="text-xs font-black uppercase tracking-[0.15em] text-[#55734d]">Trạng thái</p><p className="mt-3 text-xl font-black text-[#49352e]">{profile.enabled ? "Đang tham gia" : "Đang tắt"}</p></div><div className="rounded-[1.5rem] bg-[#f7efe5] p-5"><p className="text-xs font-black uppercase tracking-[0.15em] text-[#806e62]">Nhóm tuổi</p><p className="mt-3 text-xl font-black text-[#49352e]">{profile.ageBand || "Chưa cập nhật"}</p></div><div className="rounded-[1.5rem] bg-[#eee8f2] p-5"><p className="text-xs font-black uppercase tracking-[0.15em] text-[#766184]">Nhân vật</p><p className="mt-3 text-xl font-black text-[#49352e]">{profile.characterId || "Chưa có kết quả mới"}</p></div></div><div className="mt-8 flex flex-wrap gap-3"><Link href="/speed-dating/me/edit" className="rounded-full bg-[#49352e] px-5 py-3 text-sm font-black text-white">Chỉnh sửa hồ sơ</Link>{profile.enabled ? <Link href="/speed-dating/discover" className="rounded-full border border-[#d6c2b1] px-5 py-3 text-sm font-black text-[#49352e]">Mở khám phá</Link> : null}</div></div>;
+}

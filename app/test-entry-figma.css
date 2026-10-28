@@ -1,0 +1,119 @@
+/* Figma 414:1052: the desktop finance-test waiting screen. */
+@media (min-width: 768px) {
+  main:has(.ttt-test-page),
+  .ttt-test-page {
+    background: #fff9f0;
+  }
+
+  .ttt-test-page .ttt-test-entry {
+    grid-template-columns: min(49.21875%, 630px) minmax(0, 1fr);
+    min-height: clamp(620px, 60.703125vw, 777px);
+  }
+
+  .ttt-test-page .ttt-test-entry-art {
+    position: relative;
+    display: block;
+    min-height: clamp(620px, 60.703125vw, 777px);
+    overflow: hidden;
+    container-type: inline-size;
+    background: linear-gradient(130.79deg, #ffc5d7 7.0368%, #fffdd6 37.382%, #ffe6c0 63.417%, #c5ffea 90.087%);
+  }
+
+  .figma-test-desktop-art {
+    position: absolute;
+    inset: 0;
+  }
+
+  .figma-test-mobile-art { display: none; }
+
+  .figma-test-desktop-coin {
+    position: absolute;
+    display: grid;
+    aspect-ratio: 1;
+    place-items: center;
+  }
+
+  .figma-test-desktop-coin-face {
+    position: relative;
+    display: block;
+    width: var(--coin-face-width);
+    aspect-ratio: 1;
+    overflow: hidden;
+    transform: rotate(var(--coin-rotation));
+  }
+
+  .figma-test-desktop-coin img {
+    position: absolute;
+    top: -18.94%;
+    left: -19.06%;
+    display: block;
+    width: 137.88%;
+    max-width: none;
+    height: 137.88%;
+  }
+
+  .figma-test-desktop-coin.saver-large img,
+  .figma-test-desktop-coin.saver-middle img { width: 137.65%; height: 137.65%; top: -19.06%; }
+
+  .figma-test-desktop-coin.control-middle img,
+  .figma-test-desktop-coin.spender-right img,
+  .figma-test-desktop-coin.spender-top img,
+  .figma-test-desktop-coin.spender-left img { top: -18.82%; }
+
+  .figma-test-desktop-coin.independence-large { left: 37.9365cqw; top: 61.746cqw; width: 82.8997cqw; --coin-face-width: 62.381cqw; --coin-rotation: -25deg; }
+  .figma-test-desktop-coin.independence-left { left: -9.0429cqw; top: 29.5143cqw; width: 43.8757cqw; --coin-face-width: 33.0159cqw; --coin-rotation: -25deg; }
+  .figma-test-desktop-coin.independence-top { left: 61.2603cqw; top: 4.9111cqw; width: 23.5203cqw; --coin-face-width: 17.3016cqw; --coin-rotation: -29deg; }
+  .figma-test-desktop-coin.saver-large { left: -10.3476cqw; top: 79.4937cqw; width: 67.3625cqw; --coin-face-width: 51.746cqw; --coin-rotation: -22deg; }
+  .figma-test-desktop-coin.saver-middle { left: 40.3175cqw; top: 30.7937cqw; width: 31.4281cqw; --coin-face-width: 23.9683cqw; --coin-rotation: 23deg; }
+  .figma-test-desktop-coin.control-middle { left: 22.5397cqw; top: 54.4444cqw; width: 36.5079cqw; --coin-face-width: 36.5079cqw; --coin-rotation: 0deg; }
+  .figma-test-desktop-coin.spender-right { left: 59.0476cqw; top: 20.1587cqw; width: 61.6992cqw; --coin-face-width: 44.4444cqw; --coin-rotation: 34deg; }
+  .figma-test-desktop-coin.spender-top { left: 14.6032cqw; top: 8.0952cqw; width: 41.1762cqw; --coin-face-width: 30.7937cqw; --coin-rotation: -26deg; }
+  .figma-test-desktop-coin.spender-left { left: -2.2397cqw; top: 66.773cqw; width: 24.411cqw; --coin-face-width: 21.9048cqw; --coin-rotation: -7deg; }
+
+  .ttt-test-page .ttt-test-entry-copy {
+    align-items: center;
+    padding: 0 clamp(0px, 6.25vw, 80px) 8px 0;
+  }
+
+  .ttt-test-page .ttt-test-entry-copy h1 {
+    width: 530px;
+    max-width: 100%;
+    font-size: clamp(32px, 3.75vw, 48px);
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .ttt-test-page .ttt-test-entry-copy p {
+    width: 530px;
+    max-width: 100%;
+    margin-top: 16px;
+    font-size: clamp(16px, 1.5625vw, 20px);
+    line-height: 1.4;
+  }
+
+  .ttt-test-page .ttt-test-entry-copy form {
+    display: flex;
+    width: 530px;
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .ttt-test-page .ttt-test-entry-copy .ttt-pill-link {
+    height: 56px;
+    margin-top: 24px;
+    border-radius: 24px;
+    padding: 11px 23px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .figma-test-desktop-art,
+  .figma-test-desktop-break { display: none; }
+
+  .figma-test-mobile-art {
+    position: absolute;
+    inset: 0;
+  }
+}
